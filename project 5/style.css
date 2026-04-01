@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url('assets/bg.jpg');
+    background-position: 0px -110px;
+    background-repeat: no-repeat;
+    /* background-size: max(1700px, 90vw); */
+    height: 110vh;
+
+    position: relative;
+}
+
+.main .box {
+    width: 100%;
+    height: 110vh;
+    position: absolute;
+    top: 0;
+
+    opacity: 0.60;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+nav img {
+    padding-top: 10px;
+    color: rgb(229, 9, 20);
+    width: 155px;
+    position: relative;
+    z-index: 1;
+}
+
+.btn button {
+    text-align: center;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 7px 16px;
+    z-index: 1;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    transition: all 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: rgb(183, 4, 13);
+}
+
+.seperation {
+    height: 8px;
+    background-color: rgba(99, 89, 89, 0.349);
+}
+
+.hero {
+    height: 89%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(249, 246, 246);
+    position: relative;
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+    gap: 18px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero :nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hero :nth-last-child(2) {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.7;
+
+}
+
+.hero2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.hero2 .email {
+    box-sizing: border-box;
+    padding: 12px 120px 12px 13px;
+    background-color: rgba(33, 33, 33, 0.57);
+    color: white;
+    border: 1px solid rgb(163, 159, 159);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.hero2 .submit {
+    padding: 12px 28px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.hero2 .submit:hover {
+    background-color: rgb(183, 4, 13);
+}
+
+
+.flex1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    flex-direction: row;
+    color: white;
+    max-width: 75vw;
+    margin: auto;
+}
+
+.content h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.content p {
+    font-size: 1.4rem;
+}
+
+.image1 img {
+    position: relative;
+    /* width: 40vw; */
+    z-index: 10;
+    margin-top: 20px;
+}
+
+.flex1 video {
+    position: absolute;
+    top: 60px;
+
+    right: 0;
+}
+
+.content2 {
+    margin-top: 120px;
+}
+
+.content2 h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.content2 p {
+    font-size: 1.4rem;
+}
+
+.box5 {
+    display: flex;
+    margin: 10px auto;
+    color: white;
+    justify-content: space-between;
+    max-width: 72vw;
+    align-items: center;
+    padding: 22px 20px 22px 14px;
+    background-color: rgba(81, 80, 80, 0.511);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.box5:hover {
+    background-color: rgb(64, 63, 63);
+}
+
+.main2 .head2 {
+    margin-top: 64px;
+    padding-bottom: 18px;
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+
+}
+
+.image5 img {
+    width: 2.5vw;
+}
+
+.content5 p {
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hero3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 12px;
+    padding-bottom: 23px;
+}
+
+.hero3 .email {
+    box-sizing: border-box;
+    padding: 17px 195px 17px 13px;
+    background-color: rgba(33, 33, 33, 0.57);
+    color: white;
+    border: 1px solid rgba(72, 69, 69, 0.816);
+    border-radius: 4px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.hero3 .submit {
+    padding: 10px 40px;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: rgb(229, 9, 20);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.hero3 .submit:hover {
+    background-color: rgb(183, 4, 13);
+}
+
+footer {
+    padding-bottom: 45px;
+}
+
+.footer_flex {
+    display: flex;
+    max-width: 95vw;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 43px;
+}
+
+.one ul {
+    list-style: none;
+}
+
+.one ul li {
+    padding-bottom: 10px;
+}
+
+.one ul li a {
+    color: rgb(183, 191, 190);
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+.btnn {
+    color: white;
+}
+
+.btnn button {
+    margin-top: 12px;
+    margin-left: 170px;
+    padding: 4px 30px;
+    color: white;
+    border: 1px solid rgb(136, 127, 127);
+    border-radius: 4px;
+    background-color: rgba(33, 33, 33, 0.57);
+    cursor: pointer;
+}
+
+.btnn h3 {
+    margin-top: 12px;
+    margin-left: 170px;
+    color: rgb(183, 191, 190);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:700px) {
+
+    .hero h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .hero :nth-child(2) {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .hero :nth-last-child(2) {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .hero2 .email {
+        padding: 10px 60px 10px 10px;
+        margin-left: 30px;
+        border-radius: 5px;
+    }
+
+    .hero2 .submit {
+        margin-top: 10px;
+        padding: 12px 28px;
+        border-radius: 5px;
+        margin-left: 115px;
+    }
+
+    .image1 img {
+        width: 360px;
+        position: relative;
+        /* width: 40vw; */
+        z-index: 10;
+    }
+
+    .flex1 {
+        flex-wrap: wrap;
+        max-width: 91vw;
+    }
+
+    .flex1 video {
+        top: 235px;
+        right: 30px;
+        width: 292px;
+    }
+
+    .content h1 {
+        text-align: center;
+        padding: 17px 0px;
+        font-size: 2.1rem;
+        font-weight: 700;
+    }
+
+    .content p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .content2 h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .content2 p {
+        text-align: center;
+    }
+
+    .main2 .head2 {
+        margin-top: 40px;
+        padding-bottom: 5px;
+        font-size: 2.2rem;
+    }
+
+    .box5 {
+        margin: 5px auto;
+        padding: 20px 20px 20px 14px;
+        font-size: 1.2rem;
+        max-width: 83vw;
+    }
+
+    .content5 p {
+        margin-top: 25px;
+    }
+
+    .hero3 .email {
+        padding: 15px 155px 15px 15px;
+        margin-left: 24px;
+    }
+
+    .hero3 .submit {
+        padding: 7px 19px;
+        margin-top: 12px;
+        margin-left: 115px;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .footer_flex {
+        max-width: 100vw;
+margin-top: 35px;
+flex-wrap: wrap;
+    }
+    .btnn button {
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 4px 20px;
+    }
+    .btnn h3 {
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+    .image5 img {
+        width: 6.5vw;
+    }
+}
+
