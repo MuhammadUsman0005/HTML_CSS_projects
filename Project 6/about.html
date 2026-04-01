@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <title>Simply Recipes</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
+  <!-- font-awesome -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <!-- nav -->
+   <nav class="navbar">
+    <div class="nav-center">
+      <!-- header -->
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="Images/logo.svg" alt="Simple Recipes">
+        </a>
+        <button type="button" class="btn nav-btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+      <!-- nav-links -->
+      <div class="nav-links show-links " >
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">about</a>
+        <a href="tags.html" class="nav-link">tags</a>
+        <a href="recipes.html" class="nav-link">recipes</a>
+        <div class="contact-link nav-link">
+          <a href="contact.html" class="btn">contact</a>
+        </div>
+      </div>
+    </div>
+   </nav>
+   <!-- end of nav -->
+    <!-- main -->
+     <main class="page">
+        <section class="about-page">
+            <article>
+            <h2>Take a look at our latest recipes</h2>
+            <p>Looking for a spicy, sour, and sweet culinary adventure? Try Thai cuisine! Bursting with flavor and featuring ingredients from fragrant herbs to fiery chili peppers. Spice up your life with a taste of Thailand!</p>
+            <p>Discover Delicious Soups, Desserts, And Much More From All Over The World At IslamiCity. Are You Looking To Try New Dishes The Whole Family Will Love?</p>
+            <a href="contact.html" class="btn">Contact</a>
+        </article>
+        <img src="Images/about.jpeg" alt="pouring salt" class="img about-img">
+        </section>
+        <secttion class="featured-recipe">
+            <h5 class="featured-title">Look At this Awesomesouce!</h5>
+            <!-- recipes container -->
+            <div class="recipes-list">
+                <!-- single recipe -->
+                 <a href="single-recipe.html" class="recipe">
+                  <img src="Images/recipies/recipe-1 (1).jpeg" alt="food" class="img recipe-img"/>
+                  <h5>carne asada</h5>
+                  <p>Prep : 15min | Cook : 5min</p>
+                 </a>
+                <!-- end of single recipe -->
+                <!-- single recipe -->
+                 <a href="single-recipe.html" class="recipe">
+                  <img src="Images/recipies/recipe-2.jpeg" alt="food" class="img recipe-img"/>
+                  <h5>greek ribs</h5>
+                  <p>Prep : 15min | Cook : 5min</p>
+                 </a>
+                <!-- end of single recipe -->
+                <!-- single recipe -->
+                 <a href="single-recipe.html" class="recipe">
+                  <img src="Images/recipies/recipe-3.jpeg" alt="food" class="img recipe-img"/>
+                  <h5>vegetables soup</h5>
+                  <p>Prep : 15min | Cook : 5min</p>
+                 </a>
+                <!-- end of single recipe -->
+               
+              </div>
+             <!-- end of recipes container -->
+           </section>
+          <!-- end of recipes container -->
+        </secttion>
+     </main>
+     <!-- end of main -->
+      <!-- footer -->
+       <footer class="page-footer">
+        <p>
+          &copy; <span id="date"></span>
+          <span class="footer-logo">SimplyRecipes</span>
+          Built by <a href="#">Usman</a>
+        </p>
+       </footer>
+   <script src="app.js"></script>
+</body>
+
+</html>

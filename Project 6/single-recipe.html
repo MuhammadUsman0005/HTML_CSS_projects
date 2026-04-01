@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <title>Simply Recipes</title>
+  <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="normalize.css">
+  <!-- font-awesome -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <!-- nav -->
+   <nav class="navbar">
+    <div class="nav-center">
+      <!-- header -->
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="Images/logo.svg" alt="Simple Recipes">
+        </a>
+        <button type="button" class="btn nav-btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+      <!-- nav-links -->
+      <div class="nav-links show-links " >
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">about</a>
+        <a href="tags.html" class="nav-link">tags</a>
+        <a href="recipes.html" class="nav-link">recipes</a>
+        <div class="contact-link nav-link">
+          <a href="contact.html" class="btn">contact</a>
+        </div>
+      </div>
+    </div>
+   </nav>
+   <!-- end of nav -->
+    <!-- main -->
+     <main class="page">
+      <div class="recipe-page">
+      </div>
+      <section class="recipe-hero">
+        <img src="Images/recipies/recipe-4.jpeg" alt="pancakes" class="img recipe-hero-img"/>
+        <article class="recipe-info">
+          <h2>Banana Pancakes</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, perspiciatis doloremque cumque voluptate officia excepturi sed natus, distinctio, atque molestias quibusdam corrupti accusantium nemo. Possimus laudantium repudiandae adipisci. Non, illum.
+            sed natus, distinctio, atque molestias quibusdam corrupti accusantium nemo. Possimus laudantium repudiandae adipisci. Non, illum.
+          </p>
+          <div class="recipe-icon">
+            <article>
+              <i class="ri-time-fill"></i>
+              <h5>prep time</h5>
+              <p>30 min.</p>
+            </article>
+            <article>
+              <i class="ri-time-line"></i>
+              <h5>cook time</h5>
+              <p>15 min.</p>
+            </article>
+            <article>
+              <i class="ri-team-fill"></i>
+              <h5>servings</h5>
+              <p>7 servings</p>
+            </article>
+          </div>
+          <div class="recipe-tags">
+            Tags : <a href="tag-template.html">Beef</a>
+             <a href="tag-template.html">Breakfast</a>
+             <a href="tag-template.html">pancakes</a>
+             <a href="tag-template.html">food</a>
+          </div>
+        </article>
+      </section>
+      <section class="recipe-content">
+        <article class="first-column">
+          <h4>instructions</h4>
+        <div class="single-instruction">
+          <header>
+            <p>step 1</p>
+            <div></div>
+          </header>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, voluptate ea ex dolore repellendus est impedit.</p>
+        </div>
+        <div class="single-instruction">
+          <header>
+            <p>step 2</p>
+            <div></div>
+          </header>
+          <p>Suscipit saepe soluta dolorem fugit illo inventore eum incidunt ex odit? Sequi exercitationem eaque esse ex qui!</p>
+        </div>
+        <div class="single-instruction">
+          <header>
+            <p>step 3</p>
+            <div></div>
+          </header>
+          <p>Totam, voluptate ea ex dolore repellendus est impedit.</p>
+        </div>
+      </article>
+      <article class="second-column">
+        <div>
+          <h4>ingredients</h4>
+          <p class="single-ingredient">
+            1 1/2 cups dry pancakes mix
+          </p>
+          <p class="single-ingredient">
+            1/2 cup flax seed meal
+          </p>
+          <p class="single-ingredient">
+            1 cup skim milk
+          </p>
+        </div>
+        <div>
+          <h4>tools</h4>
+          <p class="single-tool">Hand Blender</p>
+          <p class="single-tool">Large Heavy Pot With Lid</p>
+          <p class="single-tool">Measuring Cup</p>
+        </div>
+      </article>
+      </section>
+     </main>
+     <!-- end of main -->
+      <!-- footer -->
+       <footer class="page-footer">
+        <p>
+          &copy; <span id="date"></span>
+          <span class="footer-logo">SimplyRecipes</span>
+          Built by <a href="#">Usman</a>
+        </p>
+       </footer>
+   <script src="app.js"></script>
+</body>
+
+</html>
